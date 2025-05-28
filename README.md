@@ -39,6 +39,9 @@ To develop a scalable recommender system that suggests similar electronics listi
 1. **Data Preparation**  
    - Parse 10,000+ eBay electronics listings (title, price, image, etc.)
    - Encode product titles using Sentence-BERT
+   - The full `combined.jsonl` file exceeds GitHub’s 100MB limit and is excluded.  
+   - A sample (`sample_combined.jsonl`) with 500 listings is provided for demonstration.
+
 
 2. **Graph Construction**  
    - Group by category → compute intra-group cosine similarities
@@ -108,12 +111,10 @@ npm start
 
 ---
 
-## 📷 UI Screenshots
+## 📽️ Demo
 
-_Include screenshots or GIFs of:_
-- Recommendation cards
-- Cluster swipeable view
-- Item details modal or tooltip
+![GNN Recommender Demo](demo/demo.gif)
+
 
 
 
