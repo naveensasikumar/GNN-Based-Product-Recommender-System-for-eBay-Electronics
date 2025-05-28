@@ -113,7 +113,7 @@ npm start
 
 ## 📽️ Demo
 
-![GNN Recommender Demo](demo/demo.gif)
+![GNN Recommender Demo](demo/Demo.gif)
 
 
 
